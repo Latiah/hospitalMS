@@ -162,20 +162,20 @@
                       <p>Lorem Ipsum is simply dummy text of the printing.</p>
                    </div>
                 </div>-->
-                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                <!--<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                    <div class="serv">
                       <span class="icon-service"><img src="images/service-icon5.png" alt="#" /></span>
                       <h4>FINE INFRASTRUCTURE</h4>
                       <p>Lorem Ipsum is simply dummy text of the printing.</p>
                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                </div>-->
+                <!--<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                    <div class="serv">
                       <span class="icon-service"><img src="images/service-icon6.png" alt="#" /></span>
                       <h4>ANYTIME BLOOD BANK</h4>
                       <p>Lorem Ipsum is simply dummy text of the printing.</p>
                    </div>
-                </div>
+                </div>-->
              </div>
           </div>
           @livewire('appointmentform')
