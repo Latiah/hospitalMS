@@ -56,7 +56,7 @@
           </div>
           <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
              <div class="appointment-form">
-                <h3><span>+</span> Book Appointment</h3>
+                <h3><span>+</span> REACH OUT TO US</h3>
                 <div class="form">
                    <form action="/">
                       <fieldset>
@@ -88,7 +88,7 @@
                                      <option>Time</option>
                                      <option>AM</option>
                                      <option>PM</option>
-                                  </select>
+                                 <!-- </select>
                                </div>
                             </div>
                          </div>
@@ -99,8 +99,8 @@
                                      <option>Doctor Name</option>
                                      <option>Mr.XYZ</option>
                                      <option>Mr.ABC</option>
-                                  </select>
-                               </div>
+                                  </select>-->
+                              <!-- </div>
                             </div>
                          </div>
                          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -124,7 +124,7 @@
           </div>
        </div>
        <!-- end row -->
-      <hr class="hr1">
+      <!--<hr class="hr1">
       <div class="row">
          <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="service-widget">
@@ -135,7 +135,7 @@
                <h3>Digital Control Center</h3>
             </div>
             <!-- end service -->
-         </div>
+        <!-- </div>
          <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="service-widget">
                <div class="post-media wow fadeIn">
@@ -145,7 +145,7 @@
                <h3>Hygienic Operating Room</h3>
             </div>
             <!-- end service -->
-         </div>
+        <!-- </div>
          <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="service-widget">
                <div class="post-media wow fadeIn">
@@ -155,7 +155,7 @@
                <h3>Specialist Physicians</h3>
             </div>
             <!-- end service -->
-         </div>
+        <!-- </div>
          <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="service-widget">
                <div class="post-media wow fadeIn">
@@ -165,7 +165,7 @@
                <h3>Digital Control Center</h3>
             </div>
             <!-- end service -->
-         </div>
+        <!-- </div>
       </div>
       <!-- end row -->
     </div>

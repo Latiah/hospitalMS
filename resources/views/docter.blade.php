@@ -18,7 +18,7 @@
                         <small>Clinic Owner</small>
                     </div>
                     <!-- end title -->
-                    <p>Hello guys, I am Soren from Sirbistana. I am senior art director and founder of Violetta.</p>
+                   <p>Hello guys, I am Soren from Sirbistana. I am senior art director and founder of Violetta.</p>
   
                     <div class="footer-social">
                         <a href="#" class="btn grd1"><i class="fa fa-facebook"></i></a>

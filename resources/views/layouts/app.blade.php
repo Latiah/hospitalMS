@@ -1,6 +1,6 @@
 <!doctype html>
 
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" {{ $app = App\Models\general_settings::latest()->first() }}>
+<!--<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" {{ $app = App\Models\general_settings::latest()->first() }}>-->
 
 <head>
     <meta charset="utf-8">
@@ -9,8 +9,8 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
-
+   <!-- <title>{{ config('app.name', 'Laravel') }}</title>-->
+<title>WASTE TO WEALTH</title>
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
@@ -44,11 +44,11 @@
 <body class="clinic_version">
 
     <!-- LOADER -->
-    <div id="preloader">
+   <!-- <div id="preloader">
         <a href="{{ url('/') }}"><img class="preloader" src="{{ config('app.url') }}images/loaders/heart-loading2.gif" alt=""></a>
     </div>
     <!-- END LOADER -->
-    <header>
+   <!-- <header>
         <div class="header-top wow fadeIn">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}"><img
@@ -74,8 +74,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="header-bottom wow fadeIn">
+        </div>-->
+       <!-- <div class="header-bottom wow fadeIn">
             <div class="container-fluid">
                 <nav class="main-menu">
                     <div class="navbar-header">
@@ -115,27 +115,27 @@
     </main>
     <a href="#home" data-scroll class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
     <footer id="footer" class="footer-area wow fadeIn">
-        <div class="container">
+        <!--<div class="container">
             <div class="row">
                 <div class="col-md-4">
                     <div class="logo padding">
                         <a href="{{ url('/') }}"><img src="{{ ($app) ? 'storage/'.$app->logo_path :  config("app.url").'images/logo.png' }}"
                                 alt=""></a>
-                        <p>{{ $app ? $app->description : 'hi this isLocavore pork belly scen ester pine est chill wave microdosing pop uple itarian cliche artisan.' }}
+                        <p>{{ $app ? $app->description : 'We provide an affordble electricity whenever , however and wherever needed .' }}
                         </p>
                     </div>
-                </div>
+                </div>-->
                 <div class="col-md-4">
                     <div class="footer-info padding">
                         <h3>CONTACT US</h3>
                         <p><i class="fa fa-map-marker"
-                                aria-hidden="true"></i>{{ $app ? $app->address : 'distric abc P/O xyz sorana' }}
+                                aria-hidden="true"></i>{{ $app ? $app->address : 'Kigali. Rwanda' }}
                         </p>
                         <p><i class="fa fa-paper-plane"
-                                aria-hidden="true"></i>{{ $app ? $app->business_email : 'tauseed@test.com' }}
+                                aria-hidden="true"></i>{{ $app ? $app->business_email : 'waste2wealth.com' }}
                         </p>
                         <p><i class="fa fa-phone"
-                                aria-hidden="true"></i>{{ $app ? $app->business_phone : '123 123 123' }}</p>
+                                aria-hidden="true"></i>{{ $app ? $app->business_phone : '0788855442' }}</p>
                     </div>
                 </div>
                 @livewire('subscribe')
@@ -148,18 +148,17 @@
                 <div class="col-md-8">
                     <div class="footer-text">
                         <p>© {{ date('Y') }} <a id="tw" href="{{ url('') }}"
-                                target="_blank">{{ env('APP_NAME') }}</a> , Inc</p>
+                                target="_blank">{{' Waste2Wealth' }}</a></p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="social">
                         <ul class="social-links">
-                            <li><a href=""><i class="fa fa-rss"></i></a></li>
-                            <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                    <li><a href=""><i class="fa fa-facebook"></i></a></li>
                             <li><a href=""><i class="fa fa-twitter"></i></a></li>
-                            <li><a href=""><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href=""><i class="fa fa-youtube"></i></a></li>
-                            <li><a href=""><i class="fa fa-pinterest"></i></a></li>
+                            <li><a href=""><i class="fa fa-gmail"></i></a></li>
+                            <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                            
                         </ul>
                     </div>
                 </div>
